@@ -1,0 +1,27 @@
+r = float(input())
+from math import pi as Pi 
+print(f"pole kola o promieniu {r} = {r**2*Pi}")
+
+
+a = float(input())
+b = float(input())
+print(f"pole rabu o przekatnych {a} i {b} = {a*b/2}")
+
+a = float(input())
+b = float(input())
+c = float(input())
+print(f"pole trapezu o bokach {a} i {b} = {(a+b)*c*1/2}")
+
+
+a = float(input())
+print(f"ppole kwadratu o boku {a} = {a*a}")
+
+
+a = float(input())
+b = float(input())
+print(f"pole trojkata o podstawie {a} i wysokosci {b} = {a*b/2}")
+
+
+a = float(input())
+b = float(input())
+print(f"pole prostokata o bokach {a} i {b} = {a*b}")
